@@ -1,3 +1,3 @@
 # reqres.in
-#### testing api for reqres.in
+#### testing api for https://reqres.in/
 
