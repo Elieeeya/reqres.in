@@ -55,3 +55,18 @@ list_resource = S({
         "text": str
     }
 })
+
+single_resource = S({
+    "data": {
+        "id": int,
+        "name": str,
+        "year": int,
+        "color": str,
+        "pantone_value": str
+        },
+    "support":
+    {
+        "url": str,
+        "text": str
+    }
+})
