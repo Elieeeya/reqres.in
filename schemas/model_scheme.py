@@ -70,3 +70,17 @@ single_resource = S({
         "text": str
     }
 })
+
+
+create_user = S({
+    "name": str,
+    "job": str,
+    "id": str,
+    "createdAt": str
+})
+
+update_user = S({
+    "name": str,
+    "job": str,
+    "updatedAt": str
+})
